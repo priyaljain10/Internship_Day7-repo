@@ -1,0 +1,44 @@
+body {
+    background-color: darksalmon;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color:maroon;
+}
+
+.container {
+    text-align: center;
+    margin:auto;
+    max-width: 600px;
+}
+
+input, button {
+    padding:10px;
+    margin: 10px 5px;
+    width: 60%;
+    max-width: 300px;
+}
+
+button {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.userList {
+    justify-content: center;
+    gap:10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.userCard {
+    background:azure;
+    color:maroon;
+    text-align: left;
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    width: 200px;
+}
